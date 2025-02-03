@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.parent {
+  padding: 20px;
+  border: 5px solid #ccc;
+  width: 300px; /*example*/
+}
+
+.child {
+  width: calc(100% - 40px - 10px); /* Account for 20px padding (20px*2) and 10px border (5px*2)*/
+  background-color: lightblue;
+}
+/*Explanation: The solution adds 40px to account for the parent's 20px padding on each side and 10px to account for the 5px border on each side. */
